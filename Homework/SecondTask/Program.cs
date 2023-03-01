@@ -1,0 +1,13 @@
+﻿Console.WriteLine("Введи три любых числа:  ");
+string numberA = Console.ReadLine()!;
+string numberB = Console.ReadLine()!;
+string numberC = Console.ReadLine()!;
+int a = int.Parse(numberA);
+int b = int.Parse(numberB);
+int c = int.Parse(numberC);
+int max = a;
+if (a>max) max = a; 
+if (b>max) max = b; 
+if (c>max) max = c; 
+Console.Write("Максимальное значение это - ");
+Console.WriteLine(max);
