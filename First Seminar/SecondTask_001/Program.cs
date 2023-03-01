@@ -1,5 +1,5 @@
 ﻿Console.WriteLine("Введи любое число от 1 до 7:  ");
-string numberA = Console.ReadLine()!;//успокаиваем программу с помощью ! ReadLine считывает только строки
+string numberA = Console.ReadLine()!;
 int num = int.Parse(numberA);
 if(num == 1)
 {
