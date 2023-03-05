@@ -1,2 +1,5 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿Console.Write("У нас есть трехзначное число: ");
+int numbA = new Random().Next(100, 200);
+Console.Write(numbA );
+
+
